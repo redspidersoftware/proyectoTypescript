@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Javier Gonzalez",
+  "author": "Javier Gonzalez Cachón",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.2.5",

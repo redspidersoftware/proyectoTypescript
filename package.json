@@ -7,7 +7,8 @@
     "execute" : "npm run build && npm start",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/index.js"
+    "start": "node ./build/index.js",
+    "dev":"tsc --watch"
   },
   "keywords": [],
   "author": "Javier Gonzalez Cachón",

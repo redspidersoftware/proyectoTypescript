@@ -8,7 +8,8 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./build/index.js",
-    "dev":"tsc --watch"
+    "dev":"tsc --watch",
+    "init":"tsc --init"
   },
   "keywords": [],
   "author": "Javier Gonzalez Cachón",

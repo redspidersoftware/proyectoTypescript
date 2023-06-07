@@ -1,9 +1,4 @@
 "use strict";
-console.log("hola");
-console.log("hola");
-console.log("hola");
-console.log("hola");
-console.log("hola");
 const alumnos = [{
         nombre: "Javi",
         edad: 20,
@@ -23,4 +18,20 @@ for (let i = 0; i < 1234567; i++) {
     let a = 0;
 }
 console.timeEnd("timer");
+const coche = {
+    marca: "Mercedes",
+    modelo: "CLA",
+};
+coche.kilometros = 10000;
+coche.modelo = "Clace C";
+const modificaModelo = (coche) => {
+    return {
+        marca: coche.marca,
+        modelo: "Mi modelo",
+        kilometros: coche.kilometros,
+    };
+};
+const miOtroCoche = modificaModelo(coche);
+console.log({ coche });
+console.log(miOtroCoche);
 //# sourceMappingURL=index.js.map

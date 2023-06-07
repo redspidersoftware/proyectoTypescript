@@ -19,7 +19,7 @@ const alumnos = [{
 //console.log(alumnos)
 console.table(alumnos);
 console.time("timer");
-for (let i = 0; i < 1234567890; i++) {
+for (let i = 0; i < 1234567; i++) {
     let a = 0;
 }
 console.timeEnd("timer");

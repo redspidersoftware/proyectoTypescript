@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="build/index.js"  defer></script>
+    <!--<script src="build/index.js"  defer></script>-->
+    <script src="https://unpkg.com/dexie/dist/dexie.js" ></script>
 </head>
 <body>
     <!--<h1>Eventos en Typescript    </h1>
@@ -16,10 +17,14 @@
     <img src="https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e">
     -->
     <h1>Persistencia de datos en Typescript    </h1>
-    <FORM method ="POST">
+    <form method ="POST">
         <input  type ="text" placeholder="introduce usuaro" name ="usermane" id="input-username" />
         <input  type ="password" placeholder="introduce contraseña" name ="password" id="input-password" />
         <button type="submit" id="boton-submit">Enviar</button>
-    </FORM>
+    </form>
+
+
+    <script src="./build/indexDexie.js"  defer></script>
+
 </body>
 </html>

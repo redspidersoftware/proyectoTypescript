@@ -6,6 +6,8 @@ const userForm = document.querySelector("form") as HTMLFormElement
 
 userForm.onsubmit =(event) =>{
     event.preventDefault()
+    if(!username || !password) return
+
     document.cookie = `username=${username?.value}`    
     document.cookie = `password=${password?.value}`
 
